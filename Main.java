@@ -4,7 +4,7 @@ import java.util.*;
 public class Main{
     public static void main(String[] args) throws FileNotFoundException {
         for (Item i : getObjects(new File("test.txt"))) {
-            System.out.println(i.getKey() + ":" + i.getValue());
+            System.out.println(i.getKey() + ", " + i.getValue());
         }
     }
 
